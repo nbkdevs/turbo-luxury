@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net8.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <RootNamespace>TurboLuxury.WaterSaver</RootNamespace>
+    <PackageId>TurboLuxury.WaterSaver</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Turbo Luxury Car Wash</Authors>
+    <Company>Turbo Luxury Car Wash</Company>
+    <Description>Estimate how many litres a year car washing uses by method (hose, pressure washer, bucket, rinseless, waterless), compare methods and see the savings.</Description>
+    <PackageTags>car-wash;water;sustainability;calculator;uae;abu-dhabi</PackageTags>
+    <PackageProjectUrl>https://turboluxurycarwash.ae/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/nbkdevs/turbo-luxury</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
