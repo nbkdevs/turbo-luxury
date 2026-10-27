@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mobile car wash package picker (Abu Dhabi)</title>
+<style>
+  body{font:16px/1.5 system-ui,sans-serif;max-width:680px;margin:2rem auto;padding:0 1rem;color:#16181d}
+  fieldset{border:1px solid #d7dbe2;border-radius:8px;margin:1rem 0}
+  label{display:block;margin:.3rem 0}
+  #result{background:#f1f4f9;border-radius:8px;padding:1rem;margin-top:1rem}
+  h2{margin:.2rem 0}
+  input[type=number]{width:5rem}
+</style>
+</head>
+<body>
+<h1>Which wash package fits my car?</h1>
+<p>Answer a few questions and see the package and the cost range in AED. Everything runs in your browser, nothing is sent anywhere.</p>
+<form id="form">
+  <fieldset><legend>What do you want?</legend>
+    <label><input type="radio" name="goal" value="upkeep" checked> Regular upkeep</label>
+    <label><input type="radio" name="goal" value="refresh"> A refresh with wax and a deeper interior clean</label>
+    <label><input type="radio" name="goal" value="deep"> A deep clean including engine bay and sanitization</label>
+    <label><input type="radio" name="goal" value="restore"> The most complete service</label>
+  </fieldset>
+  <fieldset><legend>Anything specific?</legend>
+    <label><input type="checkbox" name="engine"> Dirty engine bay</label>
+    <label><input type="checkbox" name="stains"> Stained seats</label>
+    <label><input type="checkbox" name="smell"> Smell from the AC</label>
+    <label><input type="checkbox" name="hazy"> Hazy headlights</label>
+  </fieldset>
+  <label>How many visits? <input type="number" name="visits" min="1" max="52" value="1"></label>
+</form>
+<div id="result" aria-live="polite"></div>
+<p><small>Prices are the published ranges per visit. Final price is confirmed when you book.</small></p>
+<script src="picker.js"></script>
+<script>
+  var form = document.getElementById('form');
+  var out = document.getElementById('result');
+  function render() {
+    var d = new FormData(form);
+    var r = WashPicker.pick({
+      goal: d.get('goal'), engine: d.has('engine'), stains: d.has('stains'),
+      smell: d.has('smell'), hazy: d.has('hazy'), visits: d.get('visits')
+    });
+    out.textContent = '';
+    var h = document.createElement('h2');
+    h.textContent = r.pkg.name + ': ' + (r.pkg.min === r.pkg.max ? r.pkg.min : r.pkg.min + '-' + r.pkg.max) + ' AED per visit';
+    out.appendChild(h);
+    var p = document.createElement('p');
+    p.textContent = r.visits + ' visit(s): ' + (r.totalMin === r.totalMax ? r.totalMin : r.totalMin + '-' + r.totalMax) + ' AED';
+    out.appendChild(p);
+    var ul = document.createElement('ul');
+    r.pkg.includes.forEach(function (i) { var li = document.createElement('li'); li.textContent = i; ul.appendChild(li); });
+    out.appendChild(ul);
+    r.reasons.forEach(function (t) { var q = document.createElement('p'); q.textContent = t; out.appendChild(q); });
+  }
+  form.addEventListener('input', render);
+  render();
+</script>
+</body>
+</html>
