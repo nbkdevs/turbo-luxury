@@ -1,0 +1,10 @@
+{
+  "name": "mobile-car-wash-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Abu Dhabi car care guide: wash window checker and monthly calendar.",
+  "license": "MIT",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "test": "node --test test/" },
+  "engines": { "node": ">=18" }
+}
