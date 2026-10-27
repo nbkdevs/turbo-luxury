@@ -1,0 +1,35 @@
+#!/usr/bin/env ruby
+require "turbo_luxury_stain_guide"
+
+HELP = <<~TXT
+  turbo-luxury-stain-guide - car interior stain first aid
+
+  Usage:
+    turbo-luxury-stain-guide advise STAIN [SURFACE]   (SURFACE defaults to fabric)
+    turbo-luxury-stain-guide list
+TXT
+
+args = ARGV.dup
+case args.first
+when "list"
+  puts "Stains:   #{TurboLuxuryStainGuide.stains.join(', ')}"
+  puts "Surfaces: #{TurboLuxuryStainGuide.surfaces.join(', ')}"
+when "advise"
+  if args[1].nil?
+    warn "advise needs a stain name"
+    exit 2
+  end
+  begin
+    puts TurboLuxuryStainGuide.advise(args[1], args[2] || "fabric")
+  rescue TurboLuxuryStainGuide::Error => e
+    warn e.message
+    exit 2
+  end
+when nil, "-h", "--help"
+  puts HELP
+  exit(args.empty? ? 1 : 0)
+else
+  warn "unknown command #{args.first.inspect}"
+  warn HELP
+  exit 2
+end
