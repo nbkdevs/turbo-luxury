@@ -1,0 +1,18 @@
+# Keep the Packagist dist archive small: only the PHP package and licence ship.
+/turbo_luxury_app export-ignore
+/store-graphics export-ignore
+/themes export-ignore
+/extensions export-ignore
+/skills export-ignore
+/tools export-ignore
+/packages/npm export-ignore
+/packages/pypi export-ignore
+/packages/crates export-ignore
+/packages/pub export-ignore
+/packages/nuget export-ignore
+/packages/rubygems export-ignore
+/packages/docker export-ignore
+/packages/smithery export-ignore
+/packages/huggingface-space export-ignore
+/directory-kits export-ignore
+/.gitattributes export-ignore

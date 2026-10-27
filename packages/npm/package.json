@@ -1,0 +1,16 @@
+{
+  "name": "turbo-luxury-wash-advisor",
+  "version": "1.0.0",
+  "description": "Pick the right mobile car wash package and wash frequency for a car in the UAE climate. Zero dependencies, CLI and library.",
+  "keywords": ["car-wash", "car-care", "detailing", "uae", "abu-dhabi", "cli", "planner", "recommendation"],
+  "homepage": "https://turboluxurycarwash.ae/",
+  "bugs": { "url": "https://github.com/nbkdevs/turbo-luxury/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/nbkdevs/turbo-luxury.git", "directory": "packages/npm" },
+  "license": "MIT",
+  "author": "Turbo Luxury Car Wash",
+  "main": "lib/index.js",
+  "bin": { "turbo-luxury-wash-advisor": "bin/cli.js" },
+  "files": ["lib/", "bin/", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/" },
+  "engines": { "node": ">=18" }
+}

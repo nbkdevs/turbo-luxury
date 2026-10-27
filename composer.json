@@ -1,0 +1,20 @@
+{
+  "name": "nbkdevs/turbo-luxury-whatsapp-booking",
+  "description": "Build a pre-filled WhatsApp booking link and message for a mobile car wash, and validate UAE phone numbers. Zero dependencies.",
+  "type": "library",
+  "keywords": ["whatsapp", "booking", "car-wash", "uae", "abu-dhabi", "phone-validation", "wa.me", "click-to-chat"],
+  "homepage": "https://turboluxurycarwash.ae/",
+  "license": "MIT",
+  "authors": [{ "name": "Turbo Luxury Car Wash", "homepage": "https://turboluxurycarwash.ae/" }],
+  "support": {
+    "issues": "https://github.com/nbkdevs/turbo-luxury/issues",
+    "source": "https://github.com/nbkdevs/turbo-luxury"
+  },
+  "require": { "php": ">=8.0" },
+  "require-dev": { "phpunit/phpunit": "^9.6 || ^10.5 || ^11.0" },
+  "autoload": { "psr-4": { "NbkDevs\\TurboLuxury\\Booking\\": "packages/packagist/src/" } },
+  "autoload-dev": { "psr-4": { "NbkDevs\\TurboLuxury\\Booking\\Tests\\": "packages/packagist/tests/" } },
+  "scripts": { "test": "phpunit -c packages/packagist/phpunit.xml" },
+  "config": { "sort-packages": true },
+  "minimum-stability": "stable"
+}
