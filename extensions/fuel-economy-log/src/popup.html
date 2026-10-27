@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fuel Economy Log</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Fuel Economy Log</h1>
+  <section id="summary" class="summary"></section>
+  <details open>
+    <summary>Add a fill-up</summary>
+    <form id="form">
+      <div class="row">
+        <label>Date <input id="date" placeholder="yyyy-mm-dd" required></label>
+        <label>Odometer (km) <input id="odo" inputmode="numeric" required></label>
+      </div>
+      <div class="row">
+        <label>Litres <input id="litres" inputmode="decimal" required></label>
+        <label>AED per litre <input id="price" inputmode="decimal"></label>
+      </div>
+      <label class="check"><input id="full" type="checkbox" checked> Filled the tank to full</label>
+      <button type="submit">Save</button>
+      <button id="export" type="button" class="ghost">Export CSV</button>
+      <p id="error" class="error" role="alert"></p>
+    </form>
+  </details>
+  <ul id="recent" class="recent"></ul>
+  <script src="lib.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

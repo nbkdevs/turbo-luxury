@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; width: 340px; padding: 12px; font: 13px/1.4 system-ui, sans-serif; color: #1c2a39; background: #f6f9fc; }
+header { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+h1 { font-size: 16px; margin: 0; }
+select { font: inherit; padding: 3px 6px; border: 1px solid #b8c6d6; border-radius: 6px; background: #fff; }
+.best { margin: 10px 0; padding: 8px 10px; border-radius: 8px; background: #e3eefb; font-weight: 600; }
+.days { list-style: none; margin: 0; padding: 0; }
+.days li { display: grid; grid-template-columns: 58px 1fr 44px; gap: 8px; align-items: center; padding: 6px 0; border-bottom: 1px solid #e0e8f0; }
+.days .d { font-weight: 600; }
+.days .why { font-size: 12px; color: #4b5d70; }
+.pill { text-align: center; padding: 2px 0; border-radius: 10px; font-weight: 700; font-size: 12px; color: #fff; }
+.great .pill { background: #1f9d55; }
+.ok .pill { background: #d98e04; }
+.skip .pill { background: #c0392b; }
+.status { color: #c0392b; min-height: 1em; margin: 6px 0 0; }
+.foot { font-size: 11px; color: #6a7b8e; margin: 8px 0 0; }

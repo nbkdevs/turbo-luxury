@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; width: 340px; padding: 12px; font: 13px/1.4 system-ui, sans-serif; color: #232323; background: #faf8f4; }
+h1 { font-size: 16px; margin: 0 0 8px; }
+.due { list-style: none; margin: 0 0 10px; padding: 0; }
+.due li { display: flex; justify-content: space-between; gap: 8px; padding: 6px 8px; margin-bottom: 4px; border-radius: 8px; background: #fff; border-left: 4px solid #1f9d55; }
+.due li.soon { border-color: #d98e04; }
+.due li.overdue { border-color: #c0392b; }
+.due .when { color: #5b5b5b; font-size: 12px; text-align: right; }
+.empty { color: #6a6a6a; }
+details { margin: 6px 0; }
+summary { cursor: pointer; font-weight: 600; }
+label { display: block; margin: 6px 0 0; font-size: 12px; color: #4a4a4a; }
+input, select { display: block; width: 100%; font: inherit; padding: 4px 6px; border: 1px solid #c7c1b6; border-radius: 6px; background: #fff; }
+button { margin-top: 8px; font: inherit; padding: 5px 12px; border: 0; border-radius: 6px; background: #8a5a14; color: #fff; cursor: pointer; }
+.error { color: #c0392b; min-height: 1em; margin: 4px 0 0; }

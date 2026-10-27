@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wash Day Weather</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <h1>Wash Day Weather</h1>
+    <select id="city" aria-label="City"></select>
+  </header>
+  <p id="best" class="best" aria-live="polite">Loading forecast…</p>
+  <ul id="days" class="days"></ul>
+  <p id="status" class="status"></p>
+  <p class="foot">Forecast and dust data: Open-Meteo.com</p>
+  <script src="lib.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Car Care Log</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Car Care Log</h1>
+  <ul id="due" class="due"></ul>
+  <details>
+    <summary>Add a service</summary>
+    <form id="form">
+      <label>Service <select id="type"></select></label>
+      <label>Date <input id="date" placeholder="yyyy-mm-dd" required></label>
+      <label>Odometer (km, optional) <input id="odo" inputmode="numeric"></label>
+      <label>Note <input id="note" maxlength="120"></label>
+      <button type="submit">Save</button>
+      <p id="error" class="error" role="alert"></p>
+    </form>
+  </details>
+  <details>
+    <summary>Settings</summary>
+    <label>Current odometer (km) <input id="current" inputmode="numeric"></label>
+    <button id="export" type="button">Export CSV</button>
+  </details>
+  <script src="lib.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
