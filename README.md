@@ -26,6 +26,34 @@ Every tool works on its own and does something different. None of them needs the
 
 See [`packages/README.md`](packages/README.md) for the full link map and test commands, [`STATUS.md`](STATUS.md) for what has been published, and [`PRIVACY.md`](PRIVACY.md) for data handling.
 
+## Find the tools elsewhere
+
+The tools in this repository are also published on the usual package registries and app stores, so you can install them with whatever your project already uses.
+
+### Packages
+
+- [npm: turbo-luxury-wash-advisor](https://www.npmjs.com/package/turbo-luxury-wash-advisor): wash package and interval planner.
+- [PyPI: turbo-luxury-paint-care](https://pypi.org/project/turbo-luxury-paint-care/): wax, sealant or ceramic coating chooser.
+- [Packagist: turboluxury/whatsapp-booking](https://packagist.org/packages/turboluxury/whatsapp-booking): PHP builder for WhatsApp booking messages.
+- [crates.io: turbo-luxury-cabin-heat](https://crates.io/crates/turbo-luxury-cabin-heat): Rust parked-car heat estimator.
+- [pub.dev: turbo_luxury_detailing](https://pub.dev/packages/turbo_luxury_detailing): Dart detailing job planner.
+- [NuGet: TurboLuxury.WaterSaver](https://www.nuget.org/packages/TurboLuxury.WaterSaver/1.0.0): .NET water-per-wash estimator.
+- [RubyGems: turbo_luxury_stain_guide](https://rubygems.org/gems/turbo_luxury_stain_guide): interior stain first-aid, with a CLI.
+- [Docker Hub: iamnazzal/mobile-car-wash](https://hub.docker.com/r/iamnazzal/mobile-car-wash): the wash-window scoring service as a container image.
+- [npm: turbo-luxury-mcp](https://www.npmjs.com/package/turbo-luxury-mcp): MCP server so AI assistants can use the planners.
+
+### Demos and apps
+
+- [Hugging Face Space: turboluxurycarwash](https://huggingface.co/spaces/usus1223/turboluxurycarwash): a browser demo.
+- [Hugging Face Space: mobile-car-wash-picker](https://huggingface.co/spaces/iamnazzal/mobile-car-wash-picker): a small page that suggests which package to use.
+- Turbo Luxury on the Amazon Appstore: [US](https://www.amazon.com/gp/product/B0HL8FDQLD), [UK](https://www.amazon.co.uk/gp/product/B0HL8FDQLD), [Germany](https://www.amazon.de/gp/product/B0HL8FDQLD), [Italy](https://www.amazon.it/gp/product/B0HL8FDQLD), [France](https://www.amazon.fr/gp/product/B0HL8FDQLD), [Spain](https://www.amazon.es/gp/product/B0HL8FDQLD), [Japan](https://www.amazon.co.jp/gp/product/B0HL8FDQLD), [Canada](https://www.amazon.ca/gp/product/B0HL8FDQLD), [Brazil](https://www.amazon.com.br/gp/product/B0HL8FDQLD), [Mexico](https://www.amazon.com.mx/gp/product/B0HL8FDQLD), [Australia](https://www.amazon.com.au/gp/product/B0HL8FDQLD).
+
+### Directories and downloads
+
+- [Product Hunt: Turbo Luxury Car Wash](https://www.producthunt.com/products/turbo-luxury-car-wash)
+- [Design Nominees: Turbo Luxury Car Wash](https://www.designnominees.com/sites/turbo-luxury-car-wash)
+- [SourceForge: Abu Dhabi Car Care Guide](https://sourceforge.net/projects/abu-dhabi-car-care-guide/): downloads and project page.
+
 ## Tests
 
 ```
