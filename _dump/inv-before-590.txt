@@ -1,0 +1,57 @@
+p.tl-crumbs	Home → Areas → Mobile Car Wash Al Bateen Abu Dhabi
+p.tl-kicker	Service area
+h1	Mobile Car Wash Al Bateen Abu Dhabi
+p	Turbo Luxury cleans your car at your Al Bateen villa or apartment, on the day and time that suits you. Pick a package, confirm on WhatsApp, and we come to you.
+btn	Book Your Car Wash in Al Bateen -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Al%20Bateen%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20a%20mobile%20car%20wash%20in%20Al%20Bateen%2C%20Abu%20Dhabi.
+btn	WhatsApp Us -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Al%20Bateen%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20a%20mobile%20car%20wash%20in%20Al%20Bateen%2C%20Abu%20Dhabi.
+h3	Book a mobile wash in Al Bateen
+btn	Book Now -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Al%20Bateen%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20a%20mobile%20car%20wash%20in%20Al%20Bateen%2C%20Abu%20Dhabi.
+h2	Al Bateen and Your Car
+img	847 | tl-visual-hero | Mobile car wash on a private villa driveway in Al Bateen, Abu Dhabi | al-bateen-villa-driveway-wash.png
+p	Al Bateen is one of Abu Dhabi&#039;s oldest waterfront neighborhoods, known for private villas on large plots, quiet tree-lined streets, and direct frontage on the Arabian Gulf. Most homes here have their own driveway or private parking, which makes mobile car care straightforward.
+p	Being this close to the water brings salt air and humidity into the mix. That combination speeds up the dulling effect the sun already has on a parked car&#039;s exterior, which is part of why we treat wax application as standard from Golden Shine up, not an optional extra.
+h2	Choose Your Car Wash Package
+img	853 | tl-visual-card | Technician applying wax to car paint on an Al Bateen villa driveway, Abu Dhabi | al-bateen-wax-application.png
+p	<strong>Quick Shine — 60–70 AED.</strong> Exterior wash, interior cleaning, window, wheel, and rim polish, foot-mat cleaning, microfiber drying, perfume.
+p	<strong>Golden Shine — 100–120 AED.</strong> Adds wax application and deep interior cleaning.
+p	<strong>Diamond Shine — 150–170 AED.</strong> Adds engine compartment cleaning and interior sanitization.
+p	<strong>Detailing Shine — 300 AED.</strong> Our most complete package. Adds seat deep cleaning, AC sanitization, interior restoration, and front light polishing.
+btn	Compare All Packages -> http://turbo-luxury-car-wash.local/#packages
+h2	Which Package Fits Your Al Bateen Home?
+p	Quick Shine suits routine upkeep between deeper cleans. Golden Shine adds the wax layer that matters most this close to the coast. Diamond Shine brings the engine bay and sanitization into the mix. Detailing Shine is the full package, right down to AC sanitization and interior restoration.
+h2	Can You Wash My Car on My Al Bateen Villa Driveway?
+p	Yes. Washing on your own private driveway is fine, as long as the water stays on your property and doesn&#039;t run off into the street. That covers most Al Bateen villas. If you&#039;re in one of the area&#039;s apartment buildings instead, it&#039;s worth a quick check with building security first, the same way you would for any service vehicle.
+h2	How It Works
+img	854 | tl-visual-card | Wheel and rim being cleaned with foam on an Al Bateen driveway, Abu Dhabi | al-bateen-wheel-rim-clean.png
+p	Pick a package, share your Al Bateen location, and confirm a time on WhatsApp. Our team arrives fully equipped and checks the result with you before leaving. Full process details are on our homepage.
+btn	Book Now -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Al%20Bateen%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20a%20mobile%20car%20wash%20in%20Al%20Bateen%2C%20Abu%20Dhabi.
+h2	Real Turbo Luxury Work
+p	See real jobs we&#039;ve completed across Abu Dhabi, including the packages used and the results, on our case studies page.
+btn	View Case Studies -> http://turbo-luxury-car-wash.local/case-studies/
+h2	Frequently Asked Questions
+summary	How much does a mobile car wash cost in Al Bateen?
+p	The same as anywhere in Abu Dhabi: 60–70 AED for Quick Shine, 100–120 AED for Golden Shine, 150–170 AED for Diamond Shine, and 300 AED for Detailing Shine.
+summary	Do I need to provide water or electricity?
+p	No. Our team brings everything needed to complete the service.
+summary	Can you come to my villa in Al Bateen?
+p	Yes. Villa driveways are the most common Al Bateen booking, and the easiest to arrange.
+h2	Book a Mobile Car Wash in Al Bateen
+p	<strong>Quick Shine 60–70 AED</strong> &nbsp;·&nbsp; <strong>Golden Shine 100–120 AED</strong> &nbsp;·&nbsp; <strong>Diamond Shine 150–170 AED</strong> &nbsp;·&nbsp; <strong>Detailing Shine 300 AED</strong>
+btn	Book Your Car Wash -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Al%20Bateen%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20a%20mobile%20car%20wash%20in%20Al%20Bateen%2C%20Abu%20Dhabi.
+btn	WhatsApp Turbo Luxury -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Al%20Bateen%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20a%20mobile%20car%20wash%20in%20Al%20Bateen%2C%20Abu%20Dhabi.
+p.tl-kicker	Related
+h2	Case studies
+img	827 | tl-hub-media |  | 
+h3	Porsche 911 · Khalifa City
+p	A black Porsche 911 received a mobile car wash at a residential location in Khalifa City, Abu Dhabi. The vehicle was cleaned on site with a foam-wash process, followed by a full exterior wash and final finish check.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/porsche-911-mobile-car-wash-khalifa-city/
+img	837 | tl-hub-media |  | 
+h3	Land Rover Engine · Shakhbout City
+p	A Land Rover received engine compartment cleaning as part of a mobile Diamond Shine in Shakhbout City, Abu Dhabi. The before-and-after photographs show the difference between the dusty engine compartment and the cleaner finished result.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/land-rover-engine-cleaning-shakhbout-city/
+img	834 | tl-hub-media is-portrait |  | 
+h3	BMW · Al Maryah Island
+p	A blue BMW received a mobile exterior wash at a customer location in Al Maryah Island, Abu Dhabi. The vehicle was cleaned on site using a foam-wash process, with the final photograph showing the finished exterior in the same urban parking area.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/bmw-mobile-car-wash-al-maryah-island/
+btn	Services -> http://turbo-luxury-car-wash.local/services/
+btn	All areas -> http://turbo-luxury-car-wash.local/areas/

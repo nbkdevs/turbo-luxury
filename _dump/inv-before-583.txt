@@ -1,0 +1,22 @@
+p.tl-crumbs	Home → Case Studies
+p.tl-kicker	Project evidence
+h1	Case Studies
+p.tl-lede	Real Turbo Luxury jobs across Abu Dhabi, with the packages used and the work shown.
+img	827 | tl-hub-media |  | 
+h2	Complete Car Cleaning for a Porsche 911 in Khalifa City, Abu Dhabi
+p	A black Porsche 911 received a mobile car wash at a residential location in Khalifa City, Abu Dhabi. The vehicle was cleaned on site with a foam-wash process, followed by a full exterior wash and final finish check.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/porsche-911-mobile-car-wash-khalifa-city/
+img	837 | tl-hub-media |  | 
+h2	Engine Compartment Cleaning for a Land Rover in Shakhbout City, Abu Dhabi
+p	A Land Rover received engine compartment cleaning as part of a mobile Diamond Shine in Shakhbout City, Abu Dhabi. The before-and-after photographs show the difference between the dusty engine compartment and the cleaner finished result.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/land-rover-engine-cleaning-shakhbout-city/
+img	834 | tl-hub-media is-portrait |  | 
+h2	Mobile Car Wash for a BMW in Al Maryah Island, Abu Dhabi
+p	A blue BMW received a mobile exterior wash at a customer location in Al Maryah Island, Abu Dhabi. The vehicle was cleaned on site using a foam-wash process, with the final photograph showing the finished exterior in the same urban parking area.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/bmw-mobile-car-wash-al-maryah-island/
+img	838 | tl-hub-media is-portrait |  | 
+h2	Wheel and Rim Cleaning for a Chevrolet in Abu Dhabi
+p	A Chevrolet received a mobile car wash in Abu Dhabi, with particular attention to the wheels and rims during the exterior cleaning process. The job was completed at the customer's location as part of a routine mobile wash.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/chevrolet-wheel-cleaning-abu-dhabi/
+h3	Book a mobile car wash on WhatsApp
+btn	Book Now -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Case%20Studies%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20to%20book%20a%20similar%20mobile%20car%20wash%20in%20Abu%20Dhabi.

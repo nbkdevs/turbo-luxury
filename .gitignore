@@ -1,0 +1,17 @@
+/Content/*
+/Content
+.cursor/*
+.cursor/
+/image_prompts/*
+/image_prompts/
+research_notes/*
+research_notes/
+reports/*
+reports/
+tmp
+scripts/*
+scripts/
+generated-photos/*
+generated-photos/
+
+

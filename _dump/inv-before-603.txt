@@ -1,0 +1,64 @@
+p.tl-crumbs	Home → Services → Car Polishing Abu Dhabi
+p.tl-kicker	Our services
+h1	Car Polishing Abu Dhabi
+p	Turbo Luxury provides window, wheel, and rim polishing at your home, villa, or office anywhere in Abu Dhabi, with wax application and front light polishing on select packages.
+btn	Book Car Polishing -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Car%20Polishing%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20to%20book%20car%20polishing%20in%20Abu%20Dhabi.
+btn	WhatsApp Us -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Car%20Polishing%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20to%20book%20car%20polishing%20in%20Abu%20Dhabi.
+h3	Book Car Polishing on WhatsApp
+btn	Book Now -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Car%20Polishing%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20to%20book%20car%20polishing%20in%20Abu%20Dhabi.
+h2	What We Polish
+img	619 | tl-visual-hero |  | 
+li	Window polish
+li	Wheel polish
+li	Rim polish
+li	Wax application (Golden Shine and up)
+li	Front light polishing (Detailing Shine only)
+h2	Which Packages Include What
+table	Package ~ Window ~ Wheel ~ Rim ~ Wax ~ Front Light ~ || Quick Shine (60–70 AED) ~ ✓ ~ ✓ ~ ✓ ~ ~ ~ || Golden Shine (100–120 AED) ~ ✓ ~ ✓ ~ ✓ ~ ✓ ~ ~ || Diamond Shine (150–170 AED) ~ ✓ ~ ✓ ~ ✓ ~ ✓ ~ ~ || Detailing Shine (300 AED) ~ ✓ ~ ✓ ~ ✓ ~ ✓ ~ ✓ ~ ||
+btn	Compare All Packages -> http://turbo-luxury-car-wash.local/#packages
+h2	Does Car Polishing Remove Scratches or Swirl Marks?
+p	Not on its own. Our polishing service covers window, wheel, rim, and, on Detailing Shine, front light surfaces, giving them a cleaner, finished look. Actual scratch removal or swirl correction is paint correction work, which isn&#039;t part of our current service scope.
+h2	Is Car Polishing the Same as Waxing?
+img	621 | tl-visual-card |  | 
+p	No. Polishing, in our packages, refers to window, wheel, and rim work. Wax application is a separate step, included from Golden Shine up, that adds a protective finish to the exterior. Front light polishing, included only in Detailing Shine, is separate again, aimed at the headlight surfaces specifically.
+h2	Why Wheels and Rims Get Their Own Treatment
+img	790 | tl-visual-card |  | 
+p	Brake dust is mostly iron, worn off the rotor and pad every time you brake. Left on a wheel, that iron reacts with moisture in the air and corrodes the finish, which is why wheels that go too long without cleaning end up pitted or dull even when the rest of the car still looks fine. Detailing sources consistently point to this same mechanism: the metal filings set off a slow corrosive reaction against the wheel&#039;s own finish, not just sitting on top of it like ordinary dirt.
+p	That&#039;s why we treat wheels and rims as their own cleaning step instead of folding them into the general exterior wash.
+h2	How It Works
+p	Pick a package, share your location, and confirm on WhatsApp. Our team brings everything needed and checks the result with you before leaving. Full process details are on our homepage.
+btn	Book Now -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Car%20Polishing%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20to%20book%20car%20polishing%20in%20Abu%20Dhabi.
+h2	Real Polishing Work
+img	767 | tl-visual-card is-portrait |  | 
+p	One car came to us for exterior cleaning and polishing after its finish had lost its shine. We worked through the exterior services in the package, and the car left noticeably cleaner and more polished.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/porsche-911-mobile-car-wash-khalifa-city/
+btn	View All Case Studies -> http://turbo-luxury-car-wash.local/case-studies/
+h2	Where We Cover
+p	We serve customers across Abu Dhabi. Central districts like Al Khalidiyah and Al Muroor see heavier stop-start traffic, which means more brake dust on the wheels. Coastal communities add salt air on top of that, which speeds up corrosion if wheels go too long between cleans.
+btn	View All Areas We Serve -> http://turbo-luxury-car-wash.local/areas/
+h2	Frequently Asked Questions
+summary	Does every package include polishing?
+p	Yes. Window, wheel, and rim polishing are included in all four packages.
+summary	Do you offer paint correction?
+p	No. Paint correction isn't part of our current service scope. Our polishing services are limited to window, wheel, rim, and front light surfaces.
+summary	Which package includes front light polishing?
+p	Detailing Shine is the only package that includes front light polishing.
+h2	Book Car Polishing in Abu Dhabi
+btn	Book Car Polishing -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Car%20Polishing%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20to%20book%20car%20polishing%20in%20Abu%20Dhabi.
+btn	WhatsApp Turbo Luxury -> https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Car%20Polishing%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20to%20book%20car%20polishing%20in%20Abu%20Dhabi.
+p.tl-kicker	Related
+h2	Case studies
+img	827 | tl-hub-media |  | 
+h3	Porsche 911 · Khalifa City
+p	A black Porsche 911 received a mobile car wash at a residential location in Khalifa City, Abu Dhabi. The vehicle was cleaned on site with a foam-wash process, followed by a full exterior wash and final finish check.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/porsche-911-mobile-car-wash-khalifa-city/
+img	838 | tl-hub-media is-portrait |  | 
+h3	Chevrolet Wheels
+p	A Chevrolet received a mobile car wash in Abu Dhabi, with particular attention to the wheels and rims during the exterior cleaning process. The job was completed at the customer's location as part of a routine mobile wash.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/chevrolet-wheel-cleaning-abu-dhabi/
+img	837 | tl-hub-media |  | 
+h3	Land Rover Engine · Shakhbout City
+p	A Land Rover received engine compartment cleaning as part of a mobile Diamond Shine in Shakhbout City, Abu Dhabi. The before-and-after photographs show the difference between the dusty engine compartment and the cleaner finished result.
+btn	Read the Full Case Study -> http://turbo-luxury-car-wash.local/land-rover-engine-cleaning-shakhbout-city/
+btn	Areas we serve -> http://turbo-luxury-car-wash.local/areas/
+btn	Case studies -> http://turbo-luxury-car-wash.local/case-studies/

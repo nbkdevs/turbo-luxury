@@ -1,0 +1,107 @@
+<!-- wp:kadence/rowlayout {"uniqueID":"584_9cf94f-f8","columns":1,"colLayout":"equal","bgColor":"#0A0A0A","align":"full","inheritMaxWidth":true,"padding":["xl","xl","md","xl"],"mobilePadding":["md","sm","md","sm"],"kbVersion":2,"className":"tl-page"} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"584_6dad09-49","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column584_6dad09-49"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"uniqueID":"584_05f72c-54","color":"#C8C8C8","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"htmlTag":"p","className":"tl-crumbs"} -->
+<p class="kt-adv-heading584_05f72c-54 tl-crumbs wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_05f72c-54">Home → Case Studies</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_5bd3d8-c6","color":"#C5A059","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"htmlTag":"p","className":"tl-kicker"} -->
+<p class="kt-adv-heading584_5bd3d8-c6 tl-kicker wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_5bd3d8-c6">Project evidence</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"level":1,"uniqueID":"584_e088a4-ae","color":"#FFFFFF","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}]} -->
+<h1 class="kt-adv-heading584_e088a4-ae wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_e088a4-ae">Case Studies</h1>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_8e8863-d4","color":"#C8C8C8","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"htmlTag":"p","className":"tl-lede"} -->
+<p class="kt-adv-heading584_8e8863-d4 tl-lede wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_8e8863-d4">Real Turbo Luxury jobs across Abu Dhabi, with the packages used and the work shown.</p>
+<!-- /wp:kadence/advancedheading --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"584_340055-ee","columns":3,"columnGutter":"custom","customGutter":[40,"",""],"colLayout":"equal","bgColor":"#0A0A0A","align":"full","inheritMaxWidth":true,"padding":["md","xl","md","xl"],"kbVersion":2,"className":"tl-hub-grid"} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"584_7a13f5-55","kbVersion":2,"className":"tl-hub-card"} -->
+<div class="wp-block-kadence-column kadence-column584_7a13f5-55 tl-hub-card"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"id":827,"uniqueID":"584_b0054e-50","borderRadius":[20,20,20,20],"showCaption":false,"className":"tl-hub-media"} -->
+<figure class="wp-block-kadence-image kb-image584_b0054e-50 tl-hub-media"><img src="http://turbo-luxury-car-wash.local/wp-content/uploads/2026/09/cleaned_washed_porsche_911.webp" alt="Finished vehicle after a mobile car wash" class="kb-img wp-image-827" /></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_0ecc01-c9","color":"#FFFFFF","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}]} -->
+<h2 class="kt-adv-heading584_0ecc01-c9 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_0ecc01-c9">Complete Car Cleaning for a Porsche 911 in Khalifa City, Abu Dhabi</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_683dc0-a4","color":"#C8C8C8","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"htmlTag":"p"} -->
+<p class="kt-adv-heading584_683dc0-a4 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_683dc0-a4">A black Porsche 911 received a mobile car wash at a residential location in Khalifa City, Abu Dhabi. The vehicle was cleaned on site with a foam-wash process, followed by a full exterior wash and final finish check.</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"584_fc8b98-d9","className":"tl-btns"} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns584_fc8b98-d9 tl-btns"><!-- wp:kadence/singlebtn {"uniqueID":"584_c0e4df-cb","text":"Read the Full Case Study","link":"http://turbo-luxury-car-wash.local/porsche-911-mobile-car-wash-khalifa-city/"} /--></div>
+<!-- /wp:kadence/advancedbtn --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":2,"borderWidth":["","","",""],"uniqueID":"584_1fcba2-b4","kbVersion":2,"className":"tl-hub-card"} -->
+<div class="wp-block-kadence-column kadence-column584_1fcba2-b4 tl-hub-card"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"id":837,"uniqueID":"584_b6d7d6-b3","borderRadius":[20,20,20,20],"showCaption":false,"className":"tl-hub-media"} -->
+<figure class="wp-block-kadence-image kb-image584_b6d7d6-b3 tl-hub-media"><img src="http://turbo-luxury-car-wash.local/wp-content/uploads/2026/09/mobile_car_wash_land_rover_abu_dhabi.webp" alt="Engine compartment before cleaning, with visible dust on surfaces" class="kb-img wp-image-837" /></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_6e0443-48","color":"#FFFFFF","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}]} -->
+<h2 class="kt-adv-heading584_6e0443-48 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_6e0443-48">Engine Compartment Cleaning for a Land Rover in Shakhbout City, Abu Dhabi</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_671d20-3c","color":"#C8C8C8","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"htmlTag":"p"} -->
+<p class="kt-adv-heading584_671d20-3c wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_671d20-3c">A Land Rover received engine compartment cleaning as part of a mobile Diamond Shine in Shakhbout City, Abu Dhabi. The before-and-after photographs show the difference between the dusty engine compartment and the cleaner finished result.</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"584_2560ff-f9","className":"tl-btns"} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns584_2560ff-f9 tl-btns"><!-- wp:kadence/singlebtn {"uniqueID":"584_f48961-42","text":"Read the Full Case Study","link":"http://turbo-luxury-car-wash.local/land-rover-engine-cleaning-shakhbout-city/"} /--></div>
+<!-- /wp:kadence/advancedbtn --></div></div>
+<!-- /wp:kadence/column -->
+
+<!-- wp:kadence/column {"id":3,"borderWidth":["","","",""],"uniqueID":"584_64553d-31","kbVersion":2,"className":"tl-hub-card"} -->
+<div class="wp-block-kadence-column kadence-column584_64553d-31 tl-hub-card"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"id":834,"uniqueID":"584_b6dbb7-ab","borderRadius":[20,20,20,20],"showCaption":false,"className":"tl-hub-media is-portrait"} -->
+<figure class="wp-block-kadence-image kb-image584_b6dbb7-ab tl-hub-media is-portrait"><img src="http://turbo-luxury-car-wash.local/wp-content/uploads/2026/09/foam_applied_bmw_7_series_abu_dhabi.webp" alt="Foam covering the vehicle during a Turbo Luxury mobile wash" class="kb-img wp-image-834" /></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_ad1260-ed","color":"#FFFFFF","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}]} -->
+<h2 class="kt-adv-heading584_ad1260-ed wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_ad1260-ed">Mobile Car Wash for a BMW in Al Maryah Island, Abu Dhabi</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_f55c46-c9","color":"#C8C8C8","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"htmlTag":"p"} -->
+<p class="kt-adv-heading584_f55c46-c9 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_f55c46-c9">A blue BMW received a mobile exterior wash at a customer location in Al Maryah Island, Abu Dhabi. The vehicle was cleaned on site using a foam-wash process, with the final photograph showing the finished exterior in the same urban parking area.</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"584_98cd85-c8","className":"tl-btns"} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns584_98cd85-c8 tl-btns"><!-- wp:kadence/singlebtn {"uniqueID":"584_54e5c8-63","text":"Read the Full Case Study","link":"http://turbo-luxury-car-wash.local/bmw-mobile-car-wash-al-maryah-island/"} /--></div>
+<!-- /wp:kadence/advancedbtn --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"584_6a9d74-56","columns":1,"columnGutter":"custom","customGutter":[40,"",""],"colLayout":"equal","bgColor":"#0A0A0A","align":"full","inheritMaxWidth":true,"padding":["md","xl","md","xl"],"kbVersion":2,"className":"tl-hub-grid"} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"584_99fdc3-01","kbVersion":2,"className":"tl-hub-card"} -->
+<div class="wp-block-kadence-column kadence-column584_99fdc3-01 tl-hub-card"><div class="kt-inside-inner-col"><!-- wp:kadence/image {"id":838,"uniqueID":"584_3985a3-cc","borderRadius":[20,20,20,20],"showCaption":false,"className":"tl-hub-media is-portrait"} -->
+<figure class="wp-block-kadence-image kb-image584_3985a3-cc tl-hub-media is-portrait"><img src="http://turbo-luxury-car-wash.local/wp-content/uploads/2026/09/chevrolet_mobile_car_wash_abu_dhabi.webp" alt="Chevrolet wheel and rim being cleaned with foam during a mobile wash" class="kb-img wp-image-838" /></figure>
+<!-- /wp:kadence/image -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_a1a7de-3a","color":"#FFFFFF","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}]} -->
+<h2 class="kt-adv-heading584_a1a7de-3a wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_a1a7de-3a">Wheel and Rim Cleaning for a Chevrolet in Abu Dhabi</h2>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedheading {"uniqueID":"584_fb73e7-5d","color":"#C8C8C8","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"htmlTag":"p"} -->
+<p class="kt-adv-heading584_fb73e7-5d wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_fb73e7-5d">A Chevrolet received a mobile car wash in Abu Dhabi, with particular attention to the wheels and rims during the exterior cleaning process. The job was completed at the customer's location as part of a routine mobile wash.</p>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedbtn {"hAlign":"left","uniqueID":"584_7bec20-44","className":"tl-btns"} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns584_7bec20-44 tl-btns"><!-- wp:kadence/singlebtn {"uniqueID":"584_f9a94c-08","text":"Read the Full Case Study","link":"http://turbo-luxury-car-wash.local/chevrolet-wheel-cleaning-abu-dhabi/"} /--></div>
+<!-- /wp:kadence/advancedbtn --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
+
+<!-- wp:kadence/rowlayout {"uniqueID":"584_f5d655-60","columns":1,"colLayout":"equal","bgColor":"#0A0A0A","align":"full","verticalAlignment":"middle","inheritMaxWidth":true,"padding":["xl","xl","xxl","xl"],"kbVersion":2,"className":"tl-page-cta"} -->
+<!-- wp:kadence/column {"borderWidth":["","","",""],"uniqueID":"584_46a9e0-8a","kbVersion":2} -->
+<div class="wp-block-kadence-column kadence-column584_46a9e0-8a"><div class="kt-inside-inner-col"><!-- wp:kadence/advancedheading {"level":3,"uniqueID":"584_4b84ec-20","color":"#FFFFFF","markBorder":"","markBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"tabletMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}],"mobileMarkBorderStyles":[{"top":[null,"",""],"right":[null,"",""],"bottom":[null,"",""],"left":[null,"",""],"unit":"px"}]} -->
+<h3 class="kt-adv-heading584_4b84ec-20 wp-block-kadence-advancedheading" data-kb-block="kb-adv-heading584_4b84ec-20">Book a mobile car wash on WhatsApp</h3>
+<!-- /wp:kadence/advancedheading -->
+
+<!-- wp:kadence/advancedbtn {"hAlign":"right","uniqueID":"584_f8a664-2e","className":"tl-btns"} -->
+<div class="wp-block-kadence-advancedbtn kb-buttons-wrap kb-btns584_f8a664-2e tl-btns"><!-- wp:kadence/singlebtn {"uniqueID":"584_7ef359-55","text":"Book Now","link":"https://wa.me/971569892095?text=Hi%2C%20I%20have%20come%20from%20the%20Case%20Studies%20page%20on%20the%20Turbo%20Luxury%20Car%20Wash%20website%2C%20and%20I%20would%20like%20to%20book%20a%20similar%20mobile%20car%20wash%20in%20Abu%20Dhabi.","target":"_blank"} /--></div>
+<!-- /wp:kadence/advancedbtn --></div></div>
+<!-- /wp:kadence/column -->
+<!-- /wp:kadence/rowlayout -->
