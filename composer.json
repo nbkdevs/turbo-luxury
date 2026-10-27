@@ -1,5 +1,5 @@
 {
-  "name": "nbkdevs/turbo-luxury-whatsapp-booking",
+  "name": "turboluxury/whatsapp-booking",
   "description": "Build a pre-filled WhatsApp booking link and message for a mobile car wash, and validate UAE phone numbers. Zero dependencies.",
   "type": "library",
   "keywords": ["whatsapp", "booking", "car-wash", "uae", "abu-dhabi", "phone-validation", "wa.me", "click-to-chat"],

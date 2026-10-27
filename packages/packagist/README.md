@@ -1,4 +1,4 @@
-# nbkdevs/turbo-luxury-whatsapp-booking
+# turboluxury/whatsapp-booking
 
 A dependency-free PHP library for sites that take car wash bookings over WhatsApp. It builds a clean,
 pre-filled booking message from a few fields, turns it into a `wa.me` click-to-chat link, and
@@ -9,7 +9,7 @@ Maintained by Turbo Luxury Car Wash, a [mobile car wash Abu Dhabi](https://turbo
 ## Install
 
 ```sh
-composer require nbkdevs/turbo-luxury-whatsapp-booking
+composer require turboluxury/whatsapp-booking
 ```
 
 Requires PHP 8.0 or newer. No runtime dependencies.

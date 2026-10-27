@@ -6,7 +6,7 @@ Every package is useful on its own and none depends on another. Each has a READM
 |---|---|---|---|
 | [npm](npm) | npm `turbo-luxury-wash-advisor` | wash package and interval planner (CLI + library) | mobile car wash Abu Dhabi → homepage |
 | [pypi](pypi) | PyPI `turbo-luxury-paint-care` | wax / sealant / ceramic chooser | car polishing Abu Dhabi → /services/car-polishing-abu-dhabi/ |
-| [../composer.json](../composer.json), [packagist](packagist) | Packagist `nbkdevs/turbo-luxury-whatsapp-booking` | WhatsApp booking message builder | mobile car wash Abu Dhabi → homepage (root README) |
+| [../composer.json](../composer.json), [packagist](packagist) | Packagist `turboluxury/whatsapp-booking` | WhatsApp booking message builder | mobile car wash Abu Dhabi → homepage (root README) |
 | [crates](crates) | crates.io `turbo-luxury-cabin-heat` | cabin heat estimator | car wash at home Abu Dhabi → homepage |
 | [pub](pub) | pub.dev `turbo_luxury_detailing` | detailing job planner | car detailing Abu Dhabi → /services/car-detailing-abu-dhabi/ |
 | [nuget](nuget) | NuGet `TurboLuxury.WaterSaver` | water-per-wash estimator | home car wash Abu Dhabi → homepage |

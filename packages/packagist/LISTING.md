@@ -1,9 +1,9 @@
-# Packagist listing: nbkdevs/turbo-luxury-whatsapp-booking
+# Packagist listing: turboluxury/whatsapp-booking
 
 | Field | Value |
 |---|---|
 | Registry | Packagist (submit the GitHub URL https://github.com/nbkdevs/turbo-luxury at packagist.org/packages/submit) |
-| Name | `nbkdevs/turbo-luxury-whatsapp-booking` (checked free via repo.packagist.org/p2 on 2026-10-27) |
+| Name | `turboluxury/whatsapp-booking` (vendor list empty via packagist.org list.json on 2026-10-27) |
 | Composer file | root `composer.json` (Packagist only reads the repository root); code lives in `packages/packagist/` |
 | Version | taken from git tags: tag `v1.0.0` after the push |
 | Licence | MIT |
