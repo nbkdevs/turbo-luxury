@@ -35,3 +35,4 @@ turbo_luxury_app/.dart_tool/
 .env
 *.keystore
 key.properties
+packages/pub/pubspec.lock

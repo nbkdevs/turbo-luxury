@@ -1,0 +1,21 @@
+name: turbo_luxury_detailing
+description: Plan a full car detailing job with an ordered checklist and a time estimate by vehicle size and condition. Pure Dart, with a CLI.
+version: 1.0.0
+homepage: https://turboluxurycarwash.ae/services/car-detailing-abu-dhabi/
+repository: https://github.com/nbkdevs/turbo-luxury/tree/main/packages/pub
+issue_tracker: https://github.com/nbkdevs/turbo-luxury/issues
+topics:
+  - car
+  - detailing
+  - checklist
+  - planner
+
+environment:
+  sdk: ^3.0.0
+
+executables:
+  turbo_luxury_detailing:
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
