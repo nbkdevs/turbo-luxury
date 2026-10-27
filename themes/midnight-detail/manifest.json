@@ -1,0 +1,84 @@
+{
+  "manifest_version": 3,
+  "name": "Midnight Detail",
+  "version": "1.0.0",
+  "description": "A dark, glossy theme inspired by a night drive: black paint reflections and warm road light.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_ntp_background": "images/theme_ntp_background.png"
+    },
+    "colors": {
+      "frame": [
+        12,
+        14,
+        20
+      ],
+      "frame_inactive": [
+        20,
+        22,
+        30
+      ],
+      "toolbar": [
+        30,
+        33,
+        42
+      ],
+      "tab_text": [
+        244,
+        246,
+        250
+      ],
+      "tab_background_text": [
+        176,
+        182,
+        196
+      ],
+      "bookmark_text": [
+        226,
+        230,
+        240
+      ],
+      "ntp_background": [
+        8,
+        10,
+        16
+      ],
+      "ntp_text": [
+        236,
+        238,
+        244
+      ],
+      "ntp_link": [
+        255,
+        150,
+        70
+      ],
+      "ntp_section": [
+        28,
+        30,
+        40
+      ],
+      "button_background": [
+        44,
+        48,
+        60
+      ],
+      "omnibox_background": [
+        48,
+        52,
+        66
+      ],
+      "omnibox_text": [
+        240,
+        242,
+        248
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}

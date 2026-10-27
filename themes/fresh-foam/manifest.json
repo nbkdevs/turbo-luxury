@@ -1,0 +1,84 @@
+{
+  "manifest_version": 3,
+  "name": "Fresh Foam",
+  "version": "1.0.0",
+  "description": "A bright, clean theme of soft blue water, drifting bubbles and gentle waves.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_ntp_background": "images/theme_ntp_background.png"
+    },
+    "colors": {
+      "frame": [
+        190,
+        224,
+        242
+      ],
+      "frame_inactive": [
+        208,
+        232,
+        246
+      ],
+      "toolbar": [
+        255,
+        255,
+        255
+      ],
+      "tab_text": [
+        14,
+        58,
+        92
+      ],
+      "tab_background_text": [
+        30,
+        76,
+        112
+      ],
+      "bookmark_text": [
+        14,
+        90,
+        130
+      ],
+      "ntp_background": [
+        196,
+        230,
+        247
+      ],
+      "ntp_text": [
+        10,
+        52,
+        84
+      ],
+      "ntp_link": [
+        8,
+        100,
+        150
+      ],
+      "ntp_section": [
+        255,
+        255,
+        255
+      ],
+      "button_background": [
+        255,
+        255,
+        255
+      ],
+      "omnibox_background": [
+        238,
+        247,
+        252
+      ],
+      "omnibox_text": [
+        14,
+        58,
+        92
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}

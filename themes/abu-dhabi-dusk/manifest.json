@@ -1,0 +1,84 @@
+{
+  "manifest_version": 3,
+  "name": "Abu Dhabi Dusk",
+  "version": "1.0.0",
+  "description": "A warm desert sunset theme: indigo sky fading to gold behind a stylised skyline and dunes.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/theme_frame.png",
+      "theme_toolbar": "images/theme_toolbar.png",
+      "theme_ntp_background": "images/theme_ntp_background.png"
+    },
+    "colors": {
+      "frame": [
+        38,
+        26,
+        70
+      ],
+      "frame_inactive": [
+        52,
+        38,
+        84
+      ],
+      "toolbar": [
+        250,
+        240,
+        228
+      ],
+      "tab_text": [
+        40,
+        24,
+        52
+      ],
+      "tab_background_text": [
+        244,
+        226,
+        214
+      ],
+      "bookmark_text": [
+        60,
+        34,
+        64
+      ],
+      "ntp_background": [
+        38,
+        26,
+        70
+      ],
+      "ntp_text": [
+        255,
+        240,
+        224
+      ],
+      "ntp_link": [
+        255,
+        196,
+        120
+      ],
+      "ntp_section": [
+        60,
+        36,
+        84
+      ],
+      "button_background": [
+        250,
+        240,
+        228
+      ],
+      "omnibox_background": [
+        255,
+        255,
+        255
+      ],
+      "omnibox_text": [
+        40,
+        24,
+        52
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
+    }
+  }
+}
