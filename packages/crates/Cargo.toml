@@ -1,0 +1,22 @@
+[package]
+name = "turbo-luxury-cabin-heat"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.70"
+description = "Estimate how hot a parked car gets in UAE summer sun: cabin and surface temperatures, risk level, and when paint is cool enough to wash."
+license = "MIT"
+readme = "README.md"
+homepage = "https://turboluxurycarwash.ae/"
+repository = "https://github.com/nbkdevs/turbo-luxury"
+keywords = ["car", "heat", "uae", "temperature", "cli"]
+categories = ["command-line-utilities", "science", "simulation"]
+authors = ["Turbo Luxury Car Wash"]
+include = ["src/**", "README.md", "LICENSE", "Cargo.toml"]
+
+[lib]
+name = "turbo_luxury_cabin_heat"
+path = "src/lib.rs"
+
+[[bin]]
+name = "turbo-luxury-cabin-heat"
+path = "src/main.rs"
