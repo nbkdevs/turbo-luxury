@@ -1,4 +1,4 @@
-# Notes for certification: Wash Day Weather 1.0.0
+# Notes for certification: Wash Day Weather 1.0.1
 
 Paste into the "Notes for certification" box of the Microsoft Partner Center submission (written before submitting, so the reviewer can follow it without contacting us).
 
