@@ -52,10 +52,51 @@ test("weekday is stable", () => {
   assert.equal(L.weekday("2026-10-27"), "Tue");
 });
 
-test("urls target the right city", () => {
-  const u = L.forecastUrl(L.CITIES["abu-dhabi"]);
-  assert.match(u, /latitude=24\.4539&longitude=54\.3773/);
-  assert.match(L.dustUrl(L.CITIES.dubai), /air-quality-api\.open-meteo\.com.*latitude=25\.2048/);
+test("forecast and dust urls use the chosen place, rounded to 2 decimals", () => {
+  const place = { label: "Demo", lat: 12.34567, lon: -45.6789 };
+  assert.match(L.forecastUrl(place), /api\.open-meteo\.com\/v1\/forecast\?latitude=12\.35&longitude=-45\.68&/);
+  assert.match(L.dustUrl(place), /air-quality-api\.open-meteo\.com.*latitude=12\.35&longitude=-45\.68/);
+});
+
+test("geocode url encodes the query and language", () => {
+  const u = L.geocodeUrl("  São Paulo & co ", "pt");
+  assert.equal(u, "https://geocoding-api.open-meteo.com/v1/search?name=S%C3%A3o%20Paulo%20%26%20co&count=6&language=pt&format=json");
+});
+
+test("parsePlaces builds labels, rounds coordinates and drops bad rows", () => {
+  const places = L.parsePlaces({ results: [
+    { name: "Northtown", admin1: "North Region", country: "Exampleland", latitude: 10.123456, longitude: 20.987654 },
+    { name: "Same", admin1: "Same", country: "Country", latitude: 1, longitude: 2 },
+    { name: "Broken", latitude: "x", longitude: 3 }
+  ] });
+  assert.deepEqual(places, [
+    { label: "Northtown, North Region, Exampleland", lat: 10.12, lon: 20.99 },
+    { label: "Same, Country", lat: 1, lon: 2 }
+  ]);
+  assert.deepEqual(L.parsePlaces({}), []);
+  assert.deepEqual(L.parsePlaces(null), []);
+});
+
+test("validPlace accepts only a label with in-range coordinates", () => {
+  assert.equal(L.validPlace({ label: "A", lat: 0, lon: 0 }), true);
+  assert.equal(L.validPlace({ label: "", lat: 0, lon: 0 }), false);
+  assert.equal(L.validPlace({ label: "A", lat: 95, lon: 0 }), false);
+  assert.equal(L.validPlace({ label: "A", lat: 0, lon: "1" }), false);
+  assert.equal(L.validPlace(null), false);
+  assert.equal(L.validPlace("old-city-key"), false);
+});
+
+test("cold days lose points", () => {
+  assert.equal(L.scoreDay({ rain: 0, wind: 0, temp: -2 }).score, 65);
+  assert.equal(L.scoreDay({ rain: 0, wind: 0, temp: 3 }).score, 90);
+  assert.equal(L.scoreDay({ rain: 0, wind: 0, temp: 5 }).score, 100);
+});
+
+test("units format for display", () => {
+  assert.equal(L.fmtTemp(30, "metric"), "30°C");
+  assert.equal(L.fmtTemp(30, "imperial"), "86°F");
+  assert.equal(L.fmtWind(32.2, "metric"), "32 km/h");
+  assert.equal(L.fmtWind(32.2, "imperial"), "20 mph");
 });
 
 test("empty responses do not throw", () => {

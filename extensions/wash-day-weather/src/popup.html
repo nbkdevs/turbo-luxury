@@ -8,12 +8,23 @@
 <body>
   <header>
     <h1>Wash Day Weather</h1>
-    <select id="city" aria-label="City"></select>
+    <select id="units" aria-label="Units">
+      <option value="metric">°C, km/h</option>
+      <option value="imperial">°F, mph</option>
+    </select>
   </header>
-  <p id="best" class="best" aria-live="polite">Loading forecast…</p>
+  <details id="where">
+    <summary><span id="place">Choose a place</span> <span class="change">Change</span></summary>
+    <form id="search" autocomplete="off">
+      <input id="q" type="search" placeholder="Search a town or city" aria-label="Town or city" maxlength="80" required>
+      <button type="submit">Search</button>
+    </form>
+    <ul id="results" class="results"></ul>
+  </details>
+  <p id="best" class="best" aria-live="polite">Search for your town or city to see the week ahead.</p>
   <ul id="days" class="days"></ul>
   <p id="status" class="status"></p>
-  <p class="foot">Forecast and dust data: Open-Meteo.com</p>
+  <p class="foot">Weather and dust data: Open-Meteo.com (CC BY 4.0)</p>
   <script src="lib.js"></script>
   <script src="popup.js"></script>
 </body>

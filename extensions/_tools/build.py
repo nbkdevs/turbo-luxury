@@ -18,9 +18,11 @@ EXTENSIONS = {
     "wash-day-weather": {
         "name": "Wash Day Weather",
         "version": "1.0.0",
-        "description": "Seven-day car wash planner for the UAE. Scores each day on rain, dust, wind and heat and picks the best one.",
+        "description": "Find the best day this week to wash your car. Scores 7 days for any town or city on rain, dust, wind and temperature.",
         "permissions": ["storage"],
         "background": None,
+        # the chosen town's rounded coordinates go to the forecast API; Firefox counts that as location data
+        "data_collection": ["locationInfo"],
     },
     "car-care-log": {
         "name": "Car Care Service Log",
@@ -63,7 +65,7 @@ def manifest(slug, cfg, browser):
             "gecko": {
                 "id": f"{slug}@{GECKO_DOMAIN}",
                 "strict_min_version": "140.0",
-                "data_collection_permissions": {"required": ["none"]},
+                "data_collection_permissions": {"required": cfg.get("data_collection", ["none"])},
             },
             "gecko_android": {"strict_min_version": "142.0"},
         }

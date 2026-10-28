@@ -14,3 +14,17 @@ select { font: inherit; padding: 3px 6px; border: 1px solid #b8c6d6; border-radi
 .skip .pill { background: #c0392b; }
 .status { color: #c0392b; min-height: 1em; margin: 6px 0 0; }
 .foot { font-size: 11px; color: #6a7b8e; margin: 8px 0 0; }
+#units { font-size: 12px; }
+details { margin: 10px 0 0; background: #fff; border: 1px solid #d5e0eb; border-radius: 8px; padding: 6px 10px; }
+summary { cursor: pointer; display: flex; justify-content: space-between; gap: 8px; font-weight: 600; list-style: none; }
+summary::-webkit-details-marker { display: none; }
+summary::before { content: ""; flex: none; width: 8px; height: 8px; margin-top: 5px; border-radius: 50%; border: 2px solid #166ea0; }
+#place { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.change { font-weight: 400; color: #166ea0; font-size: 12px; }
+form { display: flex; gap: 6px; margin: 8px 0 4px; }
+input { flex: 1; font: inherit; padding: 4px 8px; border: 1px solid #b8c6d6; border-radius: 6px; }
+button { font: inherit; padding: 4px 10px; border: 0; border-radius: 6px; background: #166ea0; color: #fff; cursor: pointer; }
+.results { list-style: none; margin: 4px 0 0; padding: 0; }
+.results li button { width: 100%; text-align: left; background: #eef4fa; color: #1c2a39; margin: 2px 0; }
+.results li button:hover, .results li button:focus { background: #d8e7f6; }
+.results .none { font-size: 12px; color: #4b5d70; }

@@ -1,5 +1,6 @@
 """Checks for the generated Chrome themes. Run: python -m unittest discover themes/_tools"""
 import json
+import re
 import unittest
 import zipfile
 from pathlib import Path
@@ -7,7 +8,9 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
-SLUGS = ["abu-dhabi-dusk", "fresh-foam", "midnight-detail"]
+SLUGS = ["desert-dusk", "fresh-foam", "midnight-detail"]
+PUBLISHED = ["desert-dusk"]  # only one theme is published (Nazzal, 28 Oct 2026)
+PLACES = re.compile(rb"turbo|luxury|abu\s*dhabi|\buae\b|dubai|sharjah|\bain\b|emirat|khaimah|chrome|google|mosque|minaret|skyline", re.I)
 SIZES = {
     "images/theme_frame.png": (1920, 80),
     "images/theme_toolbar.png": (1920, 48),
@@ -60,6 +63,12 @@ class ThemeTests(unittest.TestCase):
                 for n in z.namelist():
                     if n.endswith(".json"):
                         self.assertNotIn(b"turboluxury", z.read(n).lower())
+
+    def test_no_brand_place_or_trademark_in_the_published_theme(self):
+        for slug in PUBLISHED:
+            with zipfile.ZipFile(ROOT / slug / f"{slug}.zip") as z:
+                m = z.read("manifest.json")
+                self.assertIsNone(PLACES.search(m), m)
 
 
 if __name__ == "__main__":

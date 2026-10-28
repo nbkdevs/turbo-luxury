@@ -2,10 +2,12 @@
 
 Needs: google-chrome, Pillow. Output per extension in <slug>/store/:
   screenshot-01-1280x800.png, screenshot-02-1280x800.png, promo-440x280.png (logo-300x300.png comes from make_icons.py)
+    python extensions/_tools/render_screens.py [slug ...]   # default: all
 Demo dates are relative to today, so the output changes day to day.
 """
 import datetime as dt
 import json
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -29,7 +31,7 @@ def forecast():
         "time": [d(i) for i in range(n)],
         "precipitation_probability_max": [0, 0, 5, 35, 70, 0, 0],
         "wind_speed_10m_max": [14, 18, 22, 33, 41, 16, 12],
-        "temperature_2m_max": [36, 37, 38, 35, 34, 39, 41],
+        "temperature_2m_max": [21, 23, 24, 19, 16, 20, 26],
         "uv_index_max": [8, 8, 8, 7, 6, 8, 9]}}
 
 
@@ -61,9 +63,11 @@ def care_entries():
 SPECS = {
     "wash-day-weather": {
         "title": "Wash Day Weather", "tag": "Pick the best day to wash your car",
-        "caps": ["Seven days scored on rain, dust, wind and heat", "Choose your emirate; best day is picked for you"],
+        "caps": ["Seven days scored on rain, dust, wind and heat", "Search any town or city, in °C or °F"],
         "colors": ((22, 110, 160), (120, 190, 225)),
-        "state": {"city": "abu-dhabi"}, "fetch": True, "open": [False, False],
+        # neutral demo place: no real town or city name in the store images
+        "state": {"place": {"label": "Your city", "lat": 30.0, "lon": 30.0}, "units": "metric"}, "fetch": True,
+        "open": [False, True], "state_variants": [{}, {"units": "imperial"}],
     },
     "car-care-log": {
         "title": "Car Care Service Log", "tag": "Know what your car needs next",
@@ -80,10 +84,11 @@ SPECS = {
 }
 
 
-def shim(spec):
+def shim(spec, variant=0):
+    state = dict(spec["state"], **(spec.get("state_variants") or [{}, {}])[variant])
     js = ("const __S=%s;window.chrome=window.chrome||{};"
           "chrome.storage={local:{get:(k,cb)=>{const o={};for(const x in k)o[x]=(x in __S)?__S[x]:k[x];cb&&cb(o)},"
-          "set:(o,cb)=>{Object.assign(__S,o);cb&&cb()}}};" % json.dumps(spec["state"]))
+          "set:(o,cb)=>{Object.assign(__S,o);cb&&cb()}}};" % json.dumps(state))
     if spec["fetch"]:
         js += ("const __F=%s,__A=%s;window.fetch=async u=>({ok:true,status:200,json:async()=>String(u).includes('air-quality')?__A:__F});"
                % (json.dumps(forecast()), json.dumps(air())))
@@ -94,11 +99,11 @@ def render_popup(slug, spec, variant):
     dst = TMP / f"{slug}-{variant}"
     shutil.rmtree(dst, ignore_errors=True)
     shutil.copytree(ROOT / slug / "src", dst)
-    (dst / "shim.js").write_text(shim(spec))
+    (dst / "shim.js").write_text(shim(spec, variant))
     html = (dst / "popup.html").read_text()
     html = html.replace('<script src="lib.js">', '<script src="shim.js"></script>\n  <script src="lib.js">', 1)
     if spec["open"][variant]:
-        html = html.replace("<details>", "<details open>")
+        html = re.sub(r"<details(?=[ >])", "<details open", html, count=0)
     (dst / "popup.html").write_text(html)
     png = TMP / f"{slug}-{variant}.png"
     subprocess.run(["google-chrome", "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
@@ -177,9 +182,11 @@ def compose_promo(spec, icon):
     return im
 
 
-def main():
+def main(slugs=None):
     TMP.mkdir(parents=True, exist_ok=True)
     for slug, spec in SPECS.items():
+        if slugs and slug not in slugs:
+            continue
         store = ROOT / slug / "store"
         store.mkdir(parents=True, exist_ok=True)
         icon = Image.open(ROOT / slug / "src/icons/icon-128.png").convert("RGBA")
@@ -191,4 +198,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    main(sys.argv[1:])

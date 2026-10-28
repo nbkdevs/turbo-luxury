@@ -8,6 +8,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SLUGS = ["wash-day-weather", "car-care-log", "fuel-economy-log"]
 FORBIDDEN = re.compile(r"turbo\s*-?luxury|carwash|car wash abu dhabi|abu dhabi car|nbkdevs\.com", re.I)
+# Place and brand names that must not appear in the published extension (Nazzal, 28 Oct 2026)
+PLACES = re.compile(r"turbo|luxury|abu\s*dhabi|\buae\b|dubai|sharjah|\bal\s*ain\b|\bain\b|emirat|khaimah|\baed\b", re.I)
+PUBLISHED = ["wash-day-weather"]
 
 
 def read_zip(path):
@@ -40,7 +43,8 @@ class PackageTests(unittest.TestCase):
             g = m["browser_specific_settings"]["gecko"]
             self.assertEqual(g["id"], f"{slug}@nbkdevs.github.io")
             self.assertEqual(g["strict_min_version"], "140.0")
-            self.assertEqual(g["data_collection_permissions"], {"required": ["none"]})
+            expected = ["locationInfo"] if slug == "wash-day-weather" else ["none"]
+            self.assertEqual(g["data_collection_permissions"], {"required": expected})
             self.assertEqual(m["browser_specific_settings"]["gecko_android"]["strict_min_version"], "142.0")
             self.assertLessEqual(len(m["description"]), 132)
             self.assertLessEqual(len(m["name"]), 45)
@@ -66,6 +70,14 @@ class PackageTests(unittest.TestCase):
                     if name.endswith(".png"):
                         continue
                     self.assertIsNone(FORBIDDEN.search(data.decode()), f"{slug} {browser} {name}")
+
+    def test_no_brand_or_place_names_in_the_published_extension(self):
+        for slug in PUBLISHED:
+            for browser in ("firefox", "edge"):
+                for name, data in read_zip(ROOT / slug / "dist" / f"{slug}-{browser}.zip").items():
+                    if name.endswith(".png"):
+                        continue
+                    self.assertIsNone(PLACES.search(data.decode()), f"{slug} {browser} {name}")
 
     def test_zips_match_source(self):
         for slug in SLUGS:

@@ -19,8 +19,8 @@ Every tool works on its own and does something different. None of them needs the
 | [`packages/smithery`](packages/smithery) | MCP server exposing the package picker, wash-window check and care tips to AI assistants. |
 | [`packages/huggingface-space`](packages/huggingface-space) | Static page that suggests a package. |
 | [`skills`](skills) | Three agent skills (SKILL.md) for car-care planning. |
-| [`themes`](themes) | Three Chrome themes: Abu Dhabi Dusk, Fresh Foam, Midnight Detail. |
-| [`extensions`](extensions) | Three Firefox and Edge extensions: Wash Day Weather, Car Care Service Log, Fuel Economy Log. |
+| [`themes`](themes) | Three Chrome themes: Desert Dusk (the one to publish), Fresh Foam and Midnight Detail (dropped). |
+| [`extensions`](extensions) | Three Firefox and Edge extensions: Wash Day Weather (the one to publish), Car Care Service Log and Fuel Economy Log (dropped). |
 | [`directory-kits`](directory-kits) | Copy and images for manual directory listings. |
 | [`turbo_luxury_app`](turbo_luxury_app) | The existing Flutter app. |
 

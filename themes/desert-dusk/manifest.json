@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Abu Dhabi Dusk",
+  "name": "Desert Dusk",
   "version": "1.0.0",
-  "description": "A warm desert sunset theme: indigo sky fading to gold behind a stylised skyline and dunes.",
+  "description": "A warm desert sunset theme: indigo sky and first stars fading to gold over a low sun and rolling dunes.",
   "theme": {
     "images": {
       "theme_frame": "images/theme_frame.png",

@@ -2,18 +2,18 @@
 
 Draft policy for the tools in this repository. Host it at an HTTPS URL before using it as a store privacy-policy field. Until then the stores can use the business privacy policy at https://turboluxurycarwash.ae/privacy-policy/.
 
-_Last updated: 27 October 2026._
+_Last updated: 28 October 2026._
 
 ## Summary
 None of the tools in this repository collects, sells or shares personal data. There are no accounts, no analytics and no advertising. The only network request any of them makes is described under "Wash Day Weather".
 
-## Chrome themes (Abu Dhabi Dusk, Fresh Foam, Midnight Detail)
+## Chrome themes (Desert Dusk, Fresh Foam, Midnight Detail)
 Themes are images and colours. They request no permissions and run no code.
 
 ## Firefox and Edge extensions
 | Extension | Permissions | Data |
 |---|---|---|
-| Wash Day Weather | `storage` | Stores your chosen city locally. Sends that city's fixed coordinates (not your location, no identifiers) to the Open-Meteo weather API to get a 7-day forecast. Open-Meteo's own policy applies to that request. |
+| Wash Day Weather | `storage` | Stores the place you chose (name and coordinates rounded to two decimals) and your °C/°F setting locally. When you search, the text you type goes to the Open-Meteo geocoding API; for the forecast, the chosen place's rounded coordinates (no identifiers, and never your device location) go to the Open-Meteo weather and air-quality APIs. Open-Meteo's own policy applies to those requests. |
 | Car Care Service Log | `storage`, `alarms`, `notifications` | Your service entries, dates and odometer readings stay in local extension storage. The daily reminder is a local notification. CSV export is created on your device. |
 | Fuel Economy Log | `storage` | Your fill-up entries stay in local extension storage. CSV export is created on your device. |
 

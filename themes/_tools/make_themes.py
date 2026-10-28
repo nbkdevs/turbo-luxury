@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the three Chrome themes: manifest.json, theme images and Chrome Web Store graphics.
 
-Run from the repo root:  python themes/_tools/make_themes.py
+Run from the repo root:  python themes/_tools/make_themes.py [slug ...]
 Needs Pillow. Output is deterministic (fixed random seeds).
 """
 import json
@@ -67,27 +67,16 @@ def scene_dusk():
     img = ImageChops.add(img, glow)
     d = ImageDraw.Draw(img)
     d.ellipse([cx - 62, cy - 62, cx + 62, cy + 62], fill=(255, 238, 190))
-    # skyline silhouette
-    sky = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    sd = ImageDraw.Draw(sky)
-    base = int(H * 0.80)
-    col = (44, 24, 66, 255)
-    x = 40
-    while x < W - 40:
-        w = rnd.randint(36, 90)
-        h = rnd.choice([60, 90, 120, 170, 230, 300]) if rnd.random() < 0.8 else 380
-        sd.rectangle([x, base - h, x + w, base], fill=col)
-        if h >= 230 and rnd.random() < 0.6:
-            sd.polygon([(x + w // 2 - 3, base - h), (x + w // 2 + 3, base - h), (x + w // 2, base - h - 70)], fill=col)
-        x += w + rnd.randint(4, 26)
-    # domed building with minarets near the left third
-    mx = int(W * 0.30)
-    sd.pieslice([mx - 130, base - 190, mx + 130, base + 70], 180, 360, fill=col)
-    for dx in (-170, 170):
-        sd.rectangle([mx + dx - 9, base - 250, mx + dx + 9, base], fill=col)
-        sd.polygon([(mx + dx - 12, base - 250), (mx + dx + 12, base - 250), (mx + dx, base - 300)], fill=col)
-    sd.rectangle([mx - 190, base - 40, mx + 190, base], fill=col)
-    img.paste(sky, (0, 0), sky)
+    # far dune ridge on the horizon (no buildings or landmarks)
+    far = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    fd = ImageDraw.Draw(far)
+    pts = [(0, H)]
+    for x in range(0, W + 8, 8):
+        y = H * 0.80 + math.sin(x / 520 + 0.6) * H * 0.03 + math.sin(x / 190 + 1.3) * H * 0.012
+        pts.append((x, y))
+    pts.append((W, H))
+    fd.polygon(pts, fill=(96, 50, 84, 255))
+    img.paste(far, (0, 0), far)
     # dunes
     dunes = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     dd = ImageDraw.Draw(dunes)
@@ -165,11 +154,11 @@ def scene_midnight():
 
 THEMES = [
     {
-        "slug": "abu-dhabi-dusk",
-        "name": "Abu Dhabi Dusk",
+        "slug": "desert-dusk",
+        "name": "Desert Dusk",
         "version": "1.0.0",
-        "description": "A warm desert sunset theme: indigo sky fading to gold behind a stylised skyline and dunes.",
-        "tagline": "Desert sunset over a calm skyline",
+        "description": "A warm desert sunset theme: indigo sky and first stars fading to gold over a low sun and rolling dunes.",
+        "tagline": "Stars, a low sun and rolling dunes",
         "scene": scene_dusk,
         "frame": ((38, 26, 70), (96, 46, 92)),
         "toolbar": (250, 240, 228),
@@ -325,7 +314,7 @@ def make_promo(t, scene, size):
     d.text((int(24 * scale) + 2, int(96 * scale) + 2), t["name"], font=f1, fill=(0, 0, 0) if dark else (255, 255, 255))
     d.text((int(24 * scale), int(96 * scale)), t["name"], font=f1, fill=t["text"])
     d.text((int(26 * scale), int(150 * scale)), t["tagline"], font=f2, fill=t["text"])
-    d.text((int(26 * scale), int(176 * scale)), "A theme for Chrome", font=f2, fill=t["accent"] if dark else t["text"])
+    d.text((int(26 * scale), int(176 * scale)), "A browser theme", font=f2, fill=t["accent"] if dark else t["text"])
     return img
 
 
@@ -369,5 +358,8 @@ def build(t):
 
 
 if __name__ == "__main__":
+    import sys
+    wanted = sys.argv[1:]  # optional slugs; default: all
     for theme in THEMES:
-        print("built", build(theme))
+        if not wanted or theme["slug"] in wanted:
+            print("built", build(theme))
