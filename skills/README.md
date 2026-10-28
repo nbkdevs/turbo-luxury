@@ -1,13 +1,19 @@
 # Agent skills
 
-Each folder holds a `SKILL.md` (Agent Skills format) that lets an AI agent answer car care questions for Abu Dhabi, either by running one of the tools in this repo or from built-in rules.
+Each folder holds a `SKILL.md` (Agent Skills / ClawHub format). All three are instruction-only and self-contained: no commands, installs, network access or dependency on any package from this repo. None of the names, slugs, titles or copy contain brand or place names; the only site mention is the `metadata.openclaw.homepage` field and one anchor in each "Links" section.
 
-| Skill | What it does | Uses |
+| Skill (folder = slug = `name`) | Display name | What it does |
 | --- | --- | --- |
-| [turbo-luxury-wash-planner](turbo-luxury-wash-planner/SKILL.md) | Package recommendation, wash interval and dated plan with AED cost range. | `npx turbo-luxury-wash-advisor` |
-| [turbo-luxury-paint-care](turbo-luxury-paint-care/SKILL.md) | Wax vs sealant vs ceramic, renewal dates, yearly cost, polish-first advice. | `pipx run turbo-luxury-paint-care` |
-| [turbo-luxury-uae-car-care](turbo-luxury-uae-car-care/SKILL.md) | Heat, dust and humidity rules for washing, paint and interior, plus how to book. | Instruction only |
+| [car-wash-planner](car-wash-planner/SKILL.md) | Car Wash Planner | Wash interval from parking and driving, wash level from the car's condition, dated plan, cost from the user's own prices. |
+| [paint-protection-chooser](paint-protection-chooser/SKILL.md) | Paint Protection Chooser | Wax vs sealant vs ceramic, renewal dates, yearly cost, polish-first advice. |
+| [hot-climate-car-care](hot-climate-car-care/SKILL.md) | Hot-Climate Car Care | Heat, dust, UV and humidity rules for washing, paint, interior, tyres and battery. |
 
-Install one with any skills-compatible client, for example `npx skills add https://github.com/nbkdevs/turbo-luxury --skill turbo-luxury-wash-planner`, or copy the folder into your agent's skills directory.
+## Publishing to ClawHub (not run here; needs the owner's `clawhub login`)
 
-Publishing to ClawHub uses `clawhub publish <folder>` with the owner's login (not run here). Each skill has one link to the website in its Links section.
+```bash
+clawhub skill publish ./skills/car-wash-planner --slug car-wash-planner --name "Car Wash Planner" --categories lifestyle --topics "car-care,car-wash,planning"
+clawhub skill publish ./skills/paint-protection-chooser --slug paint-protection-chooser --name "Paint Protection Chooser" --categories lifestyle --topics "car-care,paint-protection,ceramic-coating"
+clawhub skill publish ./skills/hot-climate-car-care --slug hot-climate-car-care --name "Hot-Climate Car Care" --categories lifestyle --topics "car-care,hot-weather,car-maintenance"
+```
+
+ClawHub publishes every skill as MIT-0 and rejects per-skill licence overrides, so the files carry no `license` field. Publish from the folder with the CLI rather than the web GitHub importer, so the listing shows no repository link.
