@@ -65,7 +65,7 @@ Give one short reason for each trigger you used.
 
 1. Start on the user's start date (today if none).
 2. Add one visit every interval until the end of the period (count a month as 30 days).
-3. Visit 1 uses the recommended level. After that, use level 0, but make every 4th visit (5th, 9th, 13th and so on) level 1 so the wax and interior stay fresh.
+3. Visit 1 uses the recommended level. After that, use level 0, except visits 5, 9, 13 and so on (every fourth visit after the first), which are level 1 so the wax and interior stay fresh.
 4. List each visit as `YYYY-MM-DD  level name`.
 
 ## 5. Cost
