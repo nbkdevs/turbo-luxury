@@ -1,0 +1,186 @@
+{
+  "$schema": "https://raw.githubusercontent.com/modelcontextprotocol/mcpb/main/schemas/mcpb-manifest-v0.3.schema.json",
+  "manifest_version": "0.3",
+  "name": "turbo-luxury-mcp",
+  "display_name": "Turbo Luxury Car Wash",
+  "version": "1.0.0",
+  "description": "Mobile car wash in Abu Dhabi: packages and AED prices, package recommendation, outdoor wash-window score, monthly care tips and a prefilled WhatsApp booking link.",
+  "long_description": "Lets an AI assistant answer customer questions for Turbo Luxury Car Wash, a mobile car wash in Abu Dhabi that comes to the customer's location. It lists the four packages (Quick Shine, Golden Shine, Diamond Shine, Detailing Shine) with AED prices and inclusions, recommends the cheapest package that covers a car's needs, scores whether the weather suits washing outdoors from temperature, wind, dust and humidity, gives a car care tip for each month of the Abu Dhabi climate, and builds a WhatsApp link with a prefilled booking message that the user sends themselves. All tools are read-only, with no API keys and no outbound network calls.",
+  "author": {
+    "name": "Turbo Luxury Car Wash",
+    "url": "https://turboluxurycarwash.ae/"
+  },
+  "homepage": "https://turboluxurycarwash.ae/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nbkdevs/turbo-luxury"
+  },
+  "support": "https://github.com/nbkdevs/turbo-luxury/issues",
+  "license": "MIT",
+  "keywords": [
+    "car-wash",
+    "mobile-car-wash",
+    "car-care",
+    "abu-dhabi",
+    "uae",
+    "booking"
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "src/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/src/index.js"
+      ],
+      "env": {}
+    }
+  },
+  "tools": [
+    {
+      "name": "list_packages",
+      "title": "List mobile car wash packages",
+      "description": "List the mobile car wash packages in Abu Dhabi with prices in AED and what each includes.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {}
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "recommend_package",
+      "title": "Recommend a package",
+      "description": "Recommend the cheapest package that covers the stated needs (wax, deep interior clean, engine bay, sanitization, stained seats, AC smell, hazy headlights).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "wantsWax": {
+            "type": "boolean"
+          },
+          "interiorDirty": {
+            "type": "boolean"
+          },
+          "wantsEngineClean": {
+            "type": "boolean"
+          },
+          "wantsSanitization": {
+            "type": "boolean"
+          },
+          "seatsStained": {
+            "type": "boolean"
+          },
+          "acSmell": {
+            "type": "boolean"
+          },
+          "hazyHeadlights": {
+            "type": "boolean"
+          },
+          "justMaintenance": {
+            "type": "boolean"
+          }
+        }
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "wash_window_check",
+      "title": "Is it a good time to wash the car?",
+      "description": "Score the current outdoor washing window in Abu Dhabi from temperature (C), wind (km/h), dust PM10 (ug/m3) and humidity (%). Give at least one.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "temp": {
+            "type": "number"
+          },
+          "wind": {
+            "type": "number"
+          },
+          "dust": {
+            "type": "number"
+          },
+          "humidity": {
+            "type": "number"
+          }
+        }
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "monthly_care_tip",
+      "title": "Car care tip for a month",
+      "description": "Get the car care tip for a month in Abu Dhabi climate (1 = January, 12 = December).",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "month": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 12
+          }
+        },
+        "required": [
+          "month"
+        ]
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false
+      }
+    },
+    {
+      "name": "booking_link",
+      "title": "WhatsApp booking link",
+      "description": "Build a WhatsApp link with a prefilled booking message for a package. The user opens it and sends the message; nothing is sent automatically.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "packageId": {
+            "type": "string",
+            "enum": [
+              "quick",
+              "golden",
+              "diamond",
+              "detailing"
+            ]
+          },
+          "area": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "vehicle": {
+            "type": "string",
+            "maxLength": 80
+          },
+          "preferredTime": {
+            "type": "string",
+            "maxLength": 80
+          }
+        }
+      },
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false
+      }
+    }
+  ],
+  "tools_generated": false,
+  "compatibility": {
+    "platforms": [
+      "darwin",
+      "win32",
+      "linux"
+    ],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  }
+}

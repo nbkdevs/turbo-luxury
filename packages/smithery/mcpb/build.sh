@@ -10,4 +10,5 @@ cp mcpb/manifest.json "$STAGE"/manifest.json
 (cd "$STAGE" && npm ci --omit=dev --ignore-scripts --no-audit --no-fund >/dev/null)
 npx -y @anthropic-ai/mcpb@2.1.2 validate "$STAGE/manifest.json"
 npx -y @anthropic-ai/mcpb@2.1.2 pack "$STAGE" "dist/turbo-luxury-mcp-$VER.mcpb"
+node mcpb/add-tool-schemas.mjs "$STAGE" "dist/turbo-luxury-mcp-$VER.mcpb"
 npx -y @anthropic-ai/mcpb@2.1.2 info "dist/turbo-luxury-mcp-$VER.mcpb"
