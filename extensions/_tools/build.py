@@ -17,7 +17,7 @@ GECKO_DOMAIN = "nbkdevs.github.io"  # neutral id domain; deliberately not the cl
 EXTENSIONS = {
     "wash-day-weather": {
         "name": "Wash Day Weather",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "description": "Find the best day this week to wash your car. Scores 7 days for any town or city on rain, dust, wind and temperature.",
         "permissions": ["storage"],
         "background": None,
