@@ -36,3 +36,5 @@ turbo_luxury_app/.dart_tool/
 *.keystore
 key.properties
 packages/pub/pubspec.lock
+# MCPB staging dir
+packages/smithery/dist/mcpb-stage/
