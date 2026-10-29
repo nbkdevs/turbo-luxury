@@ -28,3 +28,4 @@ Booking is by WhatsApp or phone on +971 56 989 2095. Service is available anywhe
 - Only real prices and the real contact number from the site are used.
 - Use the tagline and short description in fields that do not allow links; use the website field for the URL.
 - Do not paste the long description into more than one directory with the same anchor on the same day.
+- [PRODUCTHUNT.md](PRODUCTHUNT.md) has the Product Hunt fields, description and maker comment; gallery-1.png to gallery-3.png (1270x760) are the Product Hunt gallery.
