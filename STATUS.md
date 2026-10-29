@@ -32,9 +32,18 @@ Prepared 27 Oct 2026 (Asia/Karachi). **Published 27 Oct 2026 (Asia/Karachi), app
 | Context 7 | nbkdevs/turbo-luxury (car-care planners and estimators) | – | https://turboluxurycarwash.ae/ | indexed README docs; root README anchor: mobile car wash Abu Dhabi | ? | config ready, not submitted | – | [context7.json](context7.json) at repo root (folders packages/ and skills/; excludes docker, vendor, store-graphics, themes, extensions, turbo_luxury_app, directory-kits); added 29 Oct 2026 |
 | Great Apps (thegreatapps) | Turbo Luxury Car Wash (Amazon Appstore app) | – | https://turboluxurycarwash.ae/ | app listing website field | ? | submitting 29 Oct 2026 | – | submitted by Nazzal with the Amazon Appstore app (https://www.amazon.com/gp/product/B0HL8FDQLD); skip reversed 29 Oct 2026 |
 | Popular Apps (thepopularapps) | Turbo Luxury Car Wash (Amazon Appstore app) | – | https://turboluxurycarwash.ae/ | app listing website field | ? | submitting 29 Oct 2026 | – | submitted by Nazzal with the Amazon Appstore app (https://www.amazon.com/gp/product/B0HL8FDQLD); skip reversed 29 Oct 2026 |
+| GitHub | `nbkdevs/turbo-luxury` (public repo) | https://github.com/nbkdevs/turbo-luxury | https://turboluxurycarwash.ae/ | root README anchor: mobile car wash Abu Dhabi; About "Website" field (set 29 Oct 2026 with `gh repo edit --homepage`) | no (README rel=nofollow; sidebar rel="noopener noreferrer nofollow") | yes - Live | 29 Oct 2026 | own repo; auto-listed |
+| Socket.dev | `turbo-luxury-wash-advisor` (also `turbo-luxury-mcp`) | https://socket.dev/npm/package/turbo-luxury-wash-advisor | https://turboluxurycarwash.ae/ | README anchor: mobile car wash Abu Dhabi (no separate homepage link in served HTML) | no (rel="nofollow ugc noopener noreferrer") | auto-indexed from npm - Live | 29 Oct 2026 | mcp page also live: https://socket.dev/npm/package/turbo-luxury-mcp |
+| npm.io | `turbo-luxury-wash-advisor` | https://npm.io/package/turbo-luxury-wash-advisor | https://turboluxurycarwash.ae/ | homepage link (from npm `homepage` field) | yes (rel="noopener noreferrer", meta robots index,follow) | auto-indexed from npm - Live | 29 Oct 2026 | no account needed |
 
 ## Registry names checked on 27 Oct 2026 (Asia/Karachi)
 Public APIs returned 404 (free) for: npm `turbo-luxury-wash-advisor` and `turbo-luxury-mcp`, PyPI `turbo-luxury-paint-care`, crates.io `turbo-luxury-cabin-heat`, pub.dev `turbo_luxury_detailing`, NuGet `TurboLuxury.WaterSaver`, RubyGems `turbo_luxury_stain_guide`, Packagist `turboluxury/whatsapp-booking`. Docker Hub `iamnazzal/mobile-car-wash` exists (empty, 200). Hugging Face `iamnazzal/mobile-car-wash-picker` returned 401, which the API gives for a Space that does not exist (an existing Space returns 200).
+
+## Remaining sheet rows (29 Oct 2026, Asia/Karachi)
+- UI Comet: launch aggregator (launches.uicomet.com); Turbo not listed yet. Free listing comes from a launch on another platform (e.g. Product Hunt); paid sponsor slots otherwise.
+- Snap Updates: auto-indexes every Snap Store snap (dofollow, rel=noopener). Needs a published snap; the Turbo Snapcraft sheet row was deleted on 29 Oct 2026 (likely Nazzal), so this waits on his decision.
+- CocoaPods: needs a pod pushed via `pod trunk` (Nazzal's trunk account, email session) and a Mac/Xcode for validation.
+- Google Play: `ae.turboluxury.carwash` is not on Play (404); needs Nazzal's Play Console account. App is on Amazon Appstore (B0HL8FDQLD).
 
 ## Not tested here
 - Docker image run test: the `iamnazzal/mobile-car-wash` image was assembled and pushed without a daemon (node:22-alpine + the COPY layer + config incl. HEALTHCHECK), so it was never run here. The `packages/smithery` Dockerfile was not built.
