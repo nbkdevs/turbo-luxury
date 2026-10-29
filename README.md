@@ -53,6 +53,9 @@ The tools in this repository are also published on the usual package registries 
 - [Product Hunt: Turbo Luxury Car Wash](https://www.producthunt.com/products/turbo-luxury-car-wash)
 - [Design Nominees: Turbo Luxury Car Wash](https://www.designnominees.com/sites/turbo-luxury-car-wash)
 - [SourceForge: Abu Dhabi Car Care Guide](https://sourceforge.net/projects/abu-dhabi-car-care-guide/): downloads and project page.
+- [The Great Apps: Turbo Luxury Car Wash APP](https://www.thegreatapps.com/apps/turbo-luxury-car-wash-app)
+- [The Popular Apps: Turbo Luxury Car Wash APP](https://www.thepopularapps.com/apps/turbo-luxury-car-wash-app)
+- [Context7: turboluxurycarwash.ae llms.txt](https://context7.com/llmstxt/turboluxurycarwash_ae_llms_txt)
 
 ## Tests
 
