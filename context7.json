@@ -16,7 +16,7 @@
     "directory-kits"
   ],
   "rules": [
-    "Package prices are AED ranges from the public price list: Quick Shine 60-70, Golden Shine 100-120, Diamond Shine 150-170, Detailing Shine 300; the planners give estimates, not quotes or bookings.",
+    "PACKAGES in the wash advisor holds four tiers with AED min/max prices: Quick Shine 60-70, Golden Shine 100-120, Diamond Shine 150-170, Detailing Shine 300; plan() uses the recommended package for the first visit, then Quick Shine with a Golden Shine every 4th visit.",
     "washIntervalDays starts at 7 (outdoor), 10 (covered) or 14 (garage) days, subtracts 1 for mixed or 3 for desert driving, and clamps the result to 4-21 days; recommend picks the lowest package tier that covers every trigger in the car profile.",
     "Paint protection durability is wax 1-2 months, sealant 3-6 months and ceramic coating 12-24 months; due_date and reminder_dates use the minimum months when harsh=True (all-day outdoor parking) and the rounded midpoint otherwise."
   ]
