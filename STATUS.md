@@ -76,3 +76,20 @@ New rows (Status Live):
 
 Couldn't verify: AMO wash-day-weather (Client Challenge page; AMO API says public v1.0.1) — left Pending Review.
 - socket.dev: Cloudflare 403 from curl, couldn't verify (not added).
+
+## One link per domain (4 Nov 2026, PKT)
+
+Nazzal's rule: only ONE row per domain in each sheet/tab. Duplicate auto-created rows were deleted from the tracking sheet (row numbers in the link-check list above are now stale). Kept: Dofollow > Live > libraries.io PyPI page > docs.rs /latest/<crate>/index.html.
+
+Softrank tab: kept libraries.io https://libraries.io/pypi/turbo-luxury-paint-care, docs.rs https://docs.rs/turbo-luxury-cabin-heat/latest/turbo_luxury_cabin_heat/index.html and npm.io https://npm.io/package/turbo-luxury-wash-advisor. Removed:
+- Libraries io https://libraries.io/cargo/turbo-luxury-cabin-heat
+- Docs rs https://docs.rs/crate/turbo-luxury-cabin-heat/latest
+- Libraries io https://libraries.io/npm/turbo-luxury-wash-advisor
+- Libraries io https://libraries.io/npm/turbo-luxury-mcp
+- NPM io https://npm.io/package/turbo-luxury-mcp
+- Libraries io https://libraries.io/pub/turbo_luxury_detailing
+- Libraries io https://libraries.io/nuget/TurboLuxury.WaterSaver
+- Libraries io https://libraries.io/rubygems/turbo_luxury_stain_guide
+- Libraries io https://libraries.io/packagist/turboluxury%2Fwhatsapp-booking
+
+Other same-host rows left for Nazzal (not auto-created): npmjs.com x2 (turbo-luxury-wash-advisor, turbo-luxury-mcp), clawhub.ai x2 (car-wash-planner, paint-protection-chooser), huggingface.co x2 (usus1223/turboluxurycarwash, iamnazzal/mobile-car-wash-picker).
