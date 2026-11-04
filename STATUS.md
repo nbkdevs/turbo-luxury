@@ -54,3 +54,25 @@ Public APIs returned 404 (free) for: npm `turbo-luxury-wash-advisor` and `turbo-
 ## Smithery check (3 Nov 2026, PKT)
 
 - As of 3 Nov 2026 every `smithery.ai/skills/...` page, including the whole `/skills` section, returns HTTP 404 "Not found · Smithery" after Smithery's 31 Oct shutdown (https://smithery.ai/future). Nazzal approved removing them: the Smithery entries above are marked "Removed: page 404 after Smithery shutdown; sheet row deleted 2026-11-03" and their rows were deleted from the tracking sheet on 3 Nov 2026.
+
+
+## Link check 4 Nov 2026 (PKT)
+
+Changed to Live: row 13 Chrome Web Store (ugc nofollow → Nofollow), row 15 Edge Add-ons (Dofollow, publisher site turboluxurycarwash.ae), row 39 ClawHub paint-protection-chooser (Dofollow).
+
+New rows (Status Live):
+- Row 40: Libraries io (Python Package, Nofollow) https://libraries.io/pypi/turbo-luxury-paint-care
+- Row 41: PyPI Stats (Python Package, Dofollow) https://pypistats.org/packages/turbo-luxury-paint-care
+- Row 42: Libraries io (Rust package, Nofollow) https://libraries.io/cargo/turbo-luxury-cabin-heat
+- Row 43: Docs rs (Rust package, Dofollow) https://docs.rs/turbo-luxury-cabin-heat/latest/turbo_luxury_cabin_heat/index.html
+- Row 44: Docs rs (Rust package, Dofollow) https://docs.rs/crate/turbo-luxury-cabin-heat/latest
+- Row 45: Libraries io (NPM Package, Nofollow) https://libraries.io/npm/turbo-luxury-wash-advisor
+- Row 46: Libraries io (NPM Package, Nofollow) https://libraries.io/npm/turbo-luxury-mcp
+- Row 47: NPM io (NPM Package, Dofollow) https://npm.io/package/turbo-luxury-mcp
+- Row 48: Libraries io (Dart Package, Nofollow) https://libraries.io/pub/turbo_luxury_detailing
+- Row 49: Libraries io (C Package, Nofollow) https://libraries.io/nuget/TurboLuxury.WaterSaver
+- Row 50: Libraries io (Ruby Package, Nofollow) https://libraries.io/rubygems/turbo_luxury_stain_guide
+- Row 51: Libraries io (Php Package, Nofollow) https://libraries.io/packagist/turboluxury%2Fwhatsapp-booking
+
+Couldn't verify: AMO wash-day-weather (Client Challenge page; AMO API says public v1.0.1) — left Pending Review.
+- socket.dev: Cloudflare 403 from curl, couldn't verify (not added).
